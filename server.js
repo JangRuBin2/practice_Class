@@ -2,6 +2,8 @@ import http from "http";
 function createNewServer(statusCode, contentType, port) {
   http
     .createServer((request, response) => {
+      request.on(json);
+      request.end(json);
       response.writeHead(statusCode, {
         "Content-Type": contentType,
       });

@@ -46,3 +46,4 @@ fs.appendFile("members.JSON", JSON.stringify(members, null, 2), (err) => {
 //     "utf-8"
 //   );
 // }
+const a = new Object();
