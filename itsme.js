@@ -1,3 +1,4 @@
+// 회원정보를 담은 객체라고 생각해보자
 const itsMe = {
   first: ["나나", "나나", "나나", "나나", "나나", "나나"],
   lastName: ["나나", "나나", "나나", "나나", "나나", "나나"],
@@ -12,13 +13,13 @@ const itsMe = {
   food: "",
   sleepTime: "",
 };
-function gain(first, lastName) {
-  (this.first = first), (this.lastName = lastName);
+function gain(lala, sss) {
+  (this.lala = lala), (this.sss = sss);
 }
 
-// let memberInfo = [];
-// for (let i = 0; i < 2; i++) {
-//   memberInfo.push(new gain(first[i], [lastName[i]]));
-// }
+let memberInfo = [];
+for (let i = 0; i < 2; i++) {
+  memberInfo.push(new gain(itsMe.first[i], [itsMe.lastName[i]]));
+}
 
-console.log(itsMe.first);
+console.log(memberInfo);

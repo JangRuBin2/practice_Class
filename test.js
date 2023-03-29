@@ -27,6 +27,10 @@ const student = [
   "한유진",
   "허진",
 ];
+let a = [];
+a.push("gk");
+a.push("ss");
+console.log(a);
 // 배열[마지막번재]를 하면 배열의 n번째 값을 찾을 수 있다
 // console.log(studentList[studentList.length - 2]);
 // length는 항상 마지막 인덱스보다 +1 많고, 마지막 원소는 length보다 항상 -1 이다.
